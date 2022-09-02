@@ -1,0 +1,49 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+ 
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.sidebar{
+  height: 100vh;
+  width: 270px;
+  background-color: rgb(22, 21, 65);
+}
+.sidebarList{
+  height: 100%;
+  padding: 0;
+  width: 100%;
+  margin: 0;
+}
+.sidebarList .row{
+  width: 100%;
+  height: 40px;
+  border: 1px solid gray;
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  
+}
+.sidebarList .row:hover{
+  cursor: pointer;
+  background-color: rgb(33, 32, 102);
+
+}
+.sidebarList #active{
+  background-color: rgb(33, 32, 102);
+}
+.row #title{
+  display: grid;
+  place-items: center;
+}
+
+
+

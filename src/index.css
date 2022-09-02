@@ -1,0 +1,135 @@
+/*create update form*/
+.create-update {
+  max-width: 400px;
+  margin:0 auto;
+  text-align: center;
+
+}
+.create-update label{
+  text-align: left;
+  display: block;
+}
+.create-update h2{
+  font-size: 20px;
+  color: rgba(22, 21, 65);
+  margin-bottom: 30px;
+}
+.create-update input, .create-update textarea{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+
+} 
+.create-update button {
+  background-color: rgb(22, 21, 65);
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  padding: 7px ;
+  cursor: pointer;
+}
+.create-update button:hover{
+  box-shadow: 0px 5px 10px 0px rgba(22, 21, 65);
+}
+
+/* navbar */
+.navbar{
+  padding: 0;
+  display: flex;
+  align-items: center;
+  max-width:100%;
+  margin: 0 ;
+  background-color: rgb(22, 21, 65);
+}
+.navbar h1{
+  font-size: 20px;
+  color: white;
+  
+}
+.navbar .navlinks{
+  margin-left: auto;
+}
+.navbar .navlinks button{
+  background-color: rgb(22, 21, 65);
+  border: none;
+  font-size: 18px;
+  padding: 15px;
+  color: white;
+}
+.navbar .navlinks button:hover{
+  cursor: pointer;
+}
+/* home */
+.home{
+  display: flex;
+  
+}
+
+h2{
+  color: rgb(22, 21, 65);
+}
+
+button {
+  background-color: rgb(22, 21, 65);
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  padding: 7px ;
+  cursor: pointer;
+}
+button:hover{
+  box-shadow: 0px 5px 10px 0px rgba(22, 21, 65);
+}
+
+.table {
+  width: 100%;
+  border: 10px black;
+  padding: 5px 5px;
+}
+
+.table thead{
+  color: rgba(22, 21, 65);
+  font-size: 20px;
+}
+.table tr{
+  text-align: center;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+.course{
+
+  padding: 20px 20px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  max-width: auto;
+  margin: 30px 30px;
+  border-bottom: 2px solid rgb(22, 21, 65);
+}
+.course:hover{
+  
+  box-shadow: 0px 5px 10px 0px rgba(22, 21, 65);
+  /* color: rgba(146, 145, 167, 0.336); */
+}
+
+.alignflex{
+  display: flex;
+  flex-direction: row;
+}
+.aligncenter{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* align-items: center; */
+}
